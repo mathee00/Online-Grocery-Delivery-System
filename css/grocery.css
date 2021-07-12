@@ -1,0 +1,400 @@
+body{
+    background-image: url(../images/customer.png);
+    background-repeat:repeat-y;
+    background-size: cover;
+    font-family: sans-serif;
+    color: black;
+}
+
+.nav{
+   
+    width: 100%;
+    height: 120px;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.aa{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    
+}
+
+.cart{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 120px;
+    top: 30px;
+}
+
+.aaa{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.icon1{
+    width: 100px;
+    height: 100px;
+	right: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: calc(350px);
+    
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: calc(350px);
+    
+}
+.homebutt{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: 16%;
+}
+
+
+.loginbox{
+    width: 400px;
+    height: 585px;
+    background-color:goldenrod;
+    color: #fff;
+    top: 95%;
+    left: 35%;
+    position:absolute;
+    opacity: 0.7;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 25px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -20px;
+    left: calc(350px);
+    
+}
+
+.loginbox p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: white ;
+}
+
+.icon2{
+    width: 140px;
+    height: 40px;
+    position: absolute;
+    right: 80px;
+    top: 460px;
+}
+
+.icon3{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    right: 240px;
+    top: 460px;
+}   
+
+
+.loginbox input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.dob select{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.select select {
+  background: transparent;
+  width: 168px;
+  padding: 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
+  -webkit-appearance: none;
+  color: #000;
+  border-radius: 20px;
+  color: black;    
+}
+
+.select option{
+    color: black;
+}
+
+.select {
+  width: 140px;
+  height: 34px;
+  overflow: hidden;
+  background: url("../images/downArrow.png") no-repeat right #fff;
+  border: 2px solid #000;
+  border-radius: 20px;
+ 
+}
+
+.loginbox input[type="text"], input[type="password"], input[type="email"],input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+        
+}
+
+.loginbox input[type="reset"]
+{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+        
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: grey;
+    color: #000;
+}
+
+.loginbox input[type="reset"]:hover
+{
+    cursor: pointer;
+    background-color: grey;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: azure;
+}
+
+.loginbox a:hover{
+    color: darkgrey;
+}
+
+.select select:hover {
+    cursor: pointer;
+    background-color: lavender;
+    color: darkgray;
+}
+
+.loginbox input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    width: auto;
+    font-family: sans-serif;
+}
+
+.loginbox add{
+    width: 100px;
+    height: 40px;
+}
+
+.loginbox input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    width: auto;
+    font-family: sans-serif;
+}
+
+
+.loginbox2{
+    float: right;
+    width: 400px;
+    height: 585px;
+    background-color: goldenrod;
+    color: #fff;
+    top: 95%;
+    left: 35%;
+    position:absolute;
+    opacity: 0.7;
+    transform: translate(50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 25px;
+}
+
+.loginbox2 p{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    color: white ;
+	
+}
+
+
+.loginbox2 input{
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.loginbox2 input[type="text"], input[type="password"], input[type="email"],input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox2 input[type="submit"]
+{
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+        
+}
+
+.loginbox2 input[type="reset"]
+{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+        
+}
+
+.loginbox2 input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: grey;
+    color: #000;
+}
+
+.loginbox2 input[type="reset"]:hover
+{
+    cursor: pointer;
+    background-color: grey;
+    color: #000;
+}
+
+.loginbox2 a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: azure;
+}
+
+.loginbox2 a:hover{
+    color: darkgrey
+}
+
+
+.loginbox2 input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    width: auto;
+    font-family: sans-serif;
+}
+
+.loginbox2 add{
+    width: 100px;
+    height: 40px;
+}
+
+.loginbox2 input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    padding: 0px;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+    width: auto;
+    font-family: sans-serif;
+}
+
+.icon1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: -90px;
+    left: calc(-75px);
+    
+}
+
+.loginbox2 h1{
+    color: red;
+    
+}

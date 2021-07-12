@@ -1,0 +1,55 @@
+
+
+
+/* Styles for the body  */
+    
+    .grocery {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+      }
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .desc{
+          color:gold;
+          font-weight:bold;
+          font-size:12px;
+          text-align:center;
+      }
+      .items{
+          margin-bottom:100px;
+          margin-left:80px;
+          height:100px;
+          width:100px;
+      }
+      
+      .cart_btn{
+          background-color:black;
+          border:2px solid #4CAF50;
+          font-weight:bold;
+          color:gold;
+          
+      }
+      .choice1{
+          background-color:silver;
+          float: right ;
+      }
+
+
+
+        body{
+    
+            background-color:black;
+        }
+        
+        
+        .a5{
+            /* background-color:goldenrod; */
+            background-color:white;
+        } 
+
+    
+   

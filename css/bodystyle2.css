@@ -1,0 +1,100 @@
+
+
+body{
+    
+    background-color:black;
+}
+
+
+.a5{
+    background-color:white;
+} 
+ 
+     /* Styles for the table  */
+
+   table,td, th {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	table-layout: fixed; 
+	width: 70%;
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+  }
+
+  table.center {
+	margin-left:auto; 
+	margin-right:auto;
+  }
+
+/*Responsive inline forme*/
+body    {font-family: Arial, Helvetica, sans-serif;}
+        * {box-sizing: border-box;}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+   align-items: center; 
+   margin-left: 400px;
+}
+
+.form-inline label {
+ margin: 5px 10px 5px 0; 
+}
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+} 
+
+.form-inline button {
+  padding: 10px 20px;
+  background-color: #CDA320;
+  border: 1px solid #ddd;
+  color: white;
+  cursor: pointer;
+}
+
+.form-inline button:hover {
+  background-color:  #f0e798;
+  transition: 0.5s
+} 
+
+#block a {
+    float: left;
+    margin-left: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  #block a:hover {                                      /*  Makes the effect */
+    background-color:goldenrod; 
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.buttons{
+        margin-top:-60px;
+        margin-left:600px;
+        
+}
+#block{
+    background:#F3D166;
+    border: 1px solid #ddd;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+
+
+  
+	

@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+
+
+.aa{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    
+}
+
+.cart{
+    width: 60px;
+    height: 50px;
+    position: absolute;
+    right: 110px;
+    top: 30px;
+}
+
+.aaa{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 40px;
+    top: 30px;
+}
+
+.aca{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 610px;
+    top: 145px;
+}
+
+.google{
+    width: 180px;
+    height: 30px;
+    position: absolute;
+    right: 65px;
+    top: 250px;
+}
+
+.fb1{
+    width: 185px;
+    height: 50px;
+    position: absolute;
+    right: 60px;
+    top: 320px;
+}
+
+
+
+
+.homebutt{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 90px;
+    left: 16%;
+}
+
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background-color: goldenrod;
+    color: #fff;
+    top: 88%;
+    left: 30%;
+    position:absolute;
+    opacity: 0.7;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 25px;
+}
+
+.loginbox2{
+    width: 320px;
+    height: 420px;
+    background-color: goldenrod;
+    color: #fff;
+    top: 88%;
+    left: 70%;
+    position:absolute;
+    opacity: 0.7;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 25px;
+}
+
+
+   
+}
+
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 20px;
+        
+}
+
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background-color: grey;
+    color: #000;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: azure;
+}
+
+.loginbox2 a{
+    text-decoration: none;
+	float :right;
+    font-size: 12px;
+    line-height: 20px;
+    color: azure;
+	
+}
+
+.loginbox a:hover{
+    color: grey
+}
+
+.loginbox2 a:hover{
+    color: grey
+}
+
+.fb{	
+
+	width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 60px;
+    top: 40px;
+
+	
+	
+}
